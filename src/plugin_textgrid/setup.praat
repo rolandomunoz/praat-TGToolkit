@@ -14,7 +14,10 @@ endif
 Add menu command: "Objects", "Goodies", "TGToolkit", "", 0, ""
 
 ## Inspect files 
-Add menu command: "Objects", "Goodies", "View files (TextGridEditor)...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgrid_ed_view.praat"
+if praatVersion > 6437
+    Add menu command: "Objects", "Goodies", "View files (TextGridEditor)...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgrid_ed_view.praat"
+endif
+Add menu command: "Objects", "Goodies", "Open files (TextGridEditor)...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgridEditor-open_files.praat"
 
 ## Modify
 Add menu command: "Objects", "Goodies", "Create", "TGToolkit", 1, ""
@@ -55,8 +58,3 @@ Add action command: "TextGrid", 1, "", 0, "", 0, "-", "Modify interval tier", 2,
 Add action command: "TextGrid", 1, "", 0, "", 0, "Merge tiers by name", "Modify interval tier", 2, "'plugin_dir$'/scripts/dynamic_menu/tg-join_interval_tiers_by_name.praat"
 Add action command: "TextGrid", 1, "", 0, "", 0, "Merge tiers...", "Modify interval tier", 2, "'plugin_dir$'/scripts/dynamic_menu/tg-join_interval_tiers.praat"
 Add action command: "TextGrid", 1, "", 0, "", 0, "Tabulate bad aligments...", "Tabulate occurrences...", 3, "'plugin_dir$'/scripts/dynamic_menu/tg-missing_time_boundaries.praat"
-
-# More recent commands
-if praatVersion > 6437
-    Add menu command: "Objects", "Goodies", "Open files (TextGridEditor)...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgridEditor-open_files.praat"
-endif
