@@ -1,3 +1,5 @@
 test/*
 preferences.txt
 temp/*
+img/*
+*.odt
