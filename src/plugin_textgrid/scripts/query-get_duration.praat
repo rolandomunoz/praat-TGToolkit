@@ -5,7 +5,7 @@ include ../procedures/list_recursive_path.proc
 form Report duration
   comment Folder with annotation files:
   text tgFolder /home/rolando/corpus
-  boolean Recursive_search
+  boolean Recursive_search 0
   comment Search:
   word Tier_name word
   word Search 
