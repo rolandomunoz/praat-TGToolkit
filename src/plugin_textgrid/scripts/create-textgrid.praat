@@ -30,7 +30,6 @@ relative_path = if startsWith(tg_folder$, ".") then  1 else 0 fi
 @createStringAsFileList: "fileList", sd_folder$ + "/*'sound_extension$'", recursive_search
 fileList= selected("Strings")
 n_fileList= Get number of strings
-pauseScript()
 newFileCounter= 0
 
 # Open each file
