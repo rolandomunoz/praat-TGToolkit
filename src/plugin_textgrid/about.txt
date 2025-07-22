@@ -1,10 +1,10 @@
 Plugin: TextGrid toolkit
 Author: Rolando Muñoz A. <rmunoz@gmail.com>
-Homepage: https://github.com/rolandomunoz/plugin_tg_toolkit
-Version: 1.2
-Last modified: 13-July-2025
+Homepage: https://github.com/rolandomunoz/praat-TGToolkit
+Version: 1.3
+Last modified: 21-July-2025
 Description:
   - A tool for processing many annotation files with just a few clicks! Use this plug-in to create, modify, query or clean your annotation files.
 License: GPL3
 How to cite: 
- - Muñoz A., Rolando (2020). TGToolkit[Praat plug-in]. Version 1.2, retrived 13 Jul 2025 from https://github.com/rolandomunoz/plugin_textgrid_toolkit
+ - Muñoz A., Rolando (2020). TGToolkit[Praat plug-in]. Version 1.3, retrived 21 Jul 2025 from https://github.com/rolandomunoz/praat-TGToolkit
