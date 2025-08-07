@@ -10,7 +10,7 @@
 # A copy of the GNU General Public License is available at
 # <http://www.gnu.org/licenses/>.
 #
-form: "View files (TextGridEditor)"
+form: "View TextGrid files"
     folder: "Input folder", "/home/rolando/corpus"
     word: "Annotation file extension", ".TextGrid"
     word: "Sound file extension", ".wav"
