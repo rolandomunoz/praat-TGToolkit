@@ -15,9 +15,11 @@ Add menu command: "Objects", "Goodies", "TGToolkit", "", 0, ""
 
 ## Inspect files 
 if praatVersion > 6437
-    Add menu command: "Objects", "Goodies", "View files (TextGridEditor)...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgrid_ed_view.praat"
+    Add menu command: "Objects", "Goodies", "View Textgrid files...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgrid_ed_view.praat"
+    Add menu command: "Objects", "Goodies", "View sound files...", "TGToolkit", 1, "'plugin_dir$'/scripts/sound_ed_view.praat"
+else
+    Add menu command: "Objects", "Goodies", "Open files (TextGridEditor)...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgridEditor-open_files.praat"
 endif
-Add menu command: "Objects", "Goodies", "Open files (TextGridEditor)...", "TGToolkit", 1, "'plugin_dir$'/scripts/textgridEditor-open_files.praat"
 if praatVersion > 6437
     Add menu command: "Objects", "Goodies", "---", "TGToolkit", 1, ""
     Add menu command: "Objects", "Goodies", "Extract intervals as files...", "TGToolkit", 1, "'plugin_dir$'/scripts/extract_intervals_as_files.praat"
