@@ -48,11 +48,11 @@ Add menu command: "Objects", "Goodies", "-", "Query", 2, ""
 Add menu command: "Objects", "Goodies", "Create Table word occurrences...", "Query", 2, "'plugin_dir$'/scripts/corpus-word_occurrences.praat"
 Add menu command: "Objects", "Goodies", "Create Table child/parent...", "Query", 2, "'plugin_dir$'/scripts/corpus-child2parent.praat"
 
-Add menu command: "Objects", "Goodies", "Clean", "TGToolkit", 1, ""
-Add menu command: "Objects", "Goodies", "Summarize tiers...", "Clean", 2, "'plugin_dir$'/scripts/clean-check_tg_tiers.praat"
-Add menu command: "Objects", "Goodies", "Find TextGrid files if tier name...", "Clean", 2, "'plugin_dir$'/scripts/clean-find_tg_if_tier_name.praat"
-Add menu command: "Objects", "Goodies", "Check boundary aligments...", "Clean", 2, "'plugin_dir$'/scripts/clean-get_missing_time_boundaries.praat"
-Add menu command: "Objects", "Goodies", "Check whitespaces...", "Clean", 2, "'plugin_dir$'/scripts/clean-check_tg_whitespaces.praat"
+Add menu command: "Objects", "Goodies", "Clean up", "TGToolkit", 1, ""
+Add menu command: "Objects", "Goodies", "Summarize tiers...", "Clean up", 2, "'plugin_dir$'/scripts/clean-check_tg_tiers.praat"
+Add menu command: "Objects", "Goodies", "Find TextGrid files if tier name...", "Clean up", 2, "'plugin_dir$'/scripts/clean-find_tg_if_tier_name.praat"
+Add menu command: "Objects", "Goodies", "Check boundary aligments...", "Clean up", 2, "'plugin_dir$'/scripts/clean-get_missing_time_boundaries.praat"
+Add menu command: "Objects", "Goodies", "Check whitespaces...", "Clean up", 2, "'plugin_dir$'/scripts/clean-check_tg_whitespaces.praat"
 
 
 Add menu command: "Objects", "Goodies", "-", "", 1, ""
