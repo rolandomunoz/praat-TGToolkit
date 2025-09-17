@@ -86,7 +86,7 @@ while pause
         if adjust_volume
             real: "Volume", volume
         endif
-    clicked_pause = endPause: "Save", "Jump", "Quit", selected_btn
+    clicked_pause = endPause: "Save", "Skip", "Quit", selected_btn
 
     freq_cursor = Get frequency at frequency cursor
     endeditor

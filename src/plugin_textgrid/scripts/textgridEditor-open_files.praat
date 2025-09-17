@@ -98,7 +98,7 @@ while pause
         if adjust_volume
             real: "Volume", volume
         endif
-    clicked_pause = endPause: "Save", "Jump", "Quit", button_choice
+    clicked_pause = endPause: "Save", "Skip", "Quit", button_choice
     endeditor
 
     button_choice = clicked_pause
